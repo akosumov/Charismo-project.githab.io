@@ -244,7 +244,7 @@
 @media only screen and (max-width: 768px){
     header{
         .main_header{
-            background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat,
+            background: url(../img/women_adaptive2.png) center center/auto auto no-repeat,
             linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
             p{
                 margin-bottom: 300px;
@@ -328,6 +328,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 650px){
+    header{
+        .main_header{
+            background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat,
+            linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+        }
+    }
+}
 @media only screen and (max-width: 480px){
     header{
         .sub_header{
@@ -342,6 +351,8 @@
             }
         }
         .main_header{
+            background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat,
+            linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
             h1{
                 text-align: center  ;
                 font-size: 33px;

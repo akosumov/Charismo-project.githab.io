@@ -740,8 +740,8 @@ footer {
     display: none; } }
 @media only screen and (max-width: 768px) {
   header .main_header {
-    background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, -webkit-gradient(linear, left top, left bottom, from(#F4F7FE), to(rgba(244, 247, 254, 0.5)));
-    background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    background: url(../img/women_adaptive2.png) center center/auto auto no-repeat, -webkit-gradient(linear, left top, left bottom, from(#F4F7FE), to(rgba(244, 247, 254, 0.5)));
+    background: url(../img/women_adaptive2.png) center center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
     header .main_header p {
       margin-bottom: 300px; }
 
@@ -792,20 +792,27 @@ footer {
     font-size: 15px; }
   footer .flex .follow_item h3 {
     font-size: 16px; } }
+@media only screen and (max-width: 650px) {
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, -webkit-gradient(linear, left top, left bottom, from(#F4F7FE), to(rgba(244, 247, 254, 0.5)));
+    background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); } }
 @media only screen and (max-width: 480px) {
   header .sub_header_adaptive_block {
     display: block; }
     header .sub_header_adaptive_block .burger img {
       right: 0px;
       bottom: 10px; }
-  header .main_header h1 {
-    text-align: center;
-    font-size: 33px;
-    margin: 0; }
-  header .main_header p {
-    text-align: center;
-    margin: 0;
-    margin-bottom: 80%; }
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat, -webkit-gradient(linear, left top, left bottom, from(#F4F7FE), to(rgba(244, 247, 254, 0.5)));
+    background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    header .main_header h1 {
+      text-align: center;
+      font-size: 33px;
+      margin: 0; }
+    header .main_header p {
+      text-align: center;
+      margin: 0;
+      margin-bottom: 80%; }
 
   main .principle > h2 {
     text-align: center;

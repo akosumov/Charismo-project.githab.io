@@ -1,0 +1,254 @@
+@media only screen and (max-width: 1500px) {
+  header .sup_header {
+    padding: 11px 25px 0 40px;
+    white-space: nowrap; }
+  header .sub_header {
+    padding: 0px 30px 0 40px;
+    white-space: nowrap; }
+  header .main_header {
+    padding: 99px 30px 0px 40px;
+    background-image: none;
+    background: url(../img/women_adaptive.png) right center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+
+  main .principle {
+    padding: 98px; }
+  main .effect {
+    padding: 20px;
+    padding-bottom: 93px; }
+  main .reviews {
+    padding: 25px;
+    padding-bottom: 50px; }
+    main .reviews_wrapper {
+      justify-content: center; }
+      main .reviews_wrapper_card:nth-child(3) {
+        display: none; }
+  main .partners {
+    padding: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px; }
+  main .professional {
+    padding: 25px;
+    padding-top: 50px; }
+
+  footer {
+    padding: 50px; } }
+@media only screen and (max-width: 1200px) {
+  header .sup_header {
+    padding: 10px 10px 0px 10px; }
+    header .sup_header_menu {
+      gap: 20px; }
+    header .sup_header_login {
+      margin-left: 200px; }
+  header .sub_header {
+    padding: 0; }
+    header .sub_header img {
+      margin-right: 40px; }
+    header .sub_header_menu {
+      gap: 10px; }
+  header .main_header {
+    background: url(../img/women_adaptive.png) 400px center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+
+  footer {
+    padding: 50px 0px 0px 20px; }
+    footer .flex {
+      gap: 50px; }
+      footer .flex .follow_item_img_social {
+        min-width: 30px;
+        min-height: 30px; }
+      footer .flex .pages_item > h3, footer .flex .product_item > h3 {
+        font-size: 18px; }
+      footer .flex .pages_item a, footer .flex .product_item a {
+        font-size: 15px; }
+      footer .flex .spam_item > h3 {
+        font-size: 18px; }
+      footer .flex .spam_item > input {
+        width: 230px; }
+      footer .flex .spam_item > button {
+        width: 255px; }
+    footer .sub_footer {
+      padding: 0;
+      padding-bottom: 20px; } }
+@media only screen and (max-width: 992px) {
+  header .sup_header {
+    display: none;
+    height: 70px;
+    padding: 0; }
+    header .sup_header img {
+      margin-right: 0; }
+    header .sup_header_menu {
+      display: none; }
+    header .sup_header_login {
+      display: none; }
+  header .sub_header {
+    box-sizing: border-box;
+    display: block;
+    background: white;
+    padding: 20px 0px 0px 20px; }
+    header .sub_header_adaptive_block {
+      display: block; }
+      header .sub_header_adaptive_block .burger {
+        position: relative; }
+        header .sub_header_adaptive_block .burger img {
+          cursor: pointer;
+          position: absolute;
+          right: 20px;
+          bottom: 10px; }
+    header .sub_header_menu {
+      display: none; }
+    header .sub_header_wrapper {
+      display: none; }
+  header .main_header {
+    padding: 0;
+    padding-top: 45px;
+    height: 650px;
+    background: url(../img/women_adaptive.png) center 225px/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    header .main_header h1 {
+      display: block;
+      font-size: 47px;
+      max-width: 100%;
+      margin-left: 40px; }
+    header .main_header p {
+      margin-left: 40px;
+      margin-bottom: 350px;
+      font-size: 26px;
+      max-width: 100%; }
+    header .main_header button {
+      margin: 0 auto;
+      width: 75%;
+      height: 10%; }
+
+  main .partners_logo img:nth-child(1) {
+    display: none; }
+  main .partners_logo img:nth-child(2) {
+    display: none; }
+  main .effect {
+    padding: 20px 93px 93px 93px; }
+  main .professional {
+    height: 289px; }
+    main .professional h2 {
+      line-height: 40px; }
+    main .professional h3 {
+      padding-top: 20px; }
+
+  footer .flex {
+    display: block; }
+    footer .flex .follow_item p {
+      font-size: 21px;
+      max-width: none;
+      line-height: 30px; }
+    footer .flex .follow_item h3 {
+      font-size: 20px; }
+    footer .flex .pages, footer .flex .product {
+      display: none; }
+    footer .flex .spam {
+      display: none; }
+  footer .sub_footer .politics {
+    display: none; } }
+@media only screen and (max-width: 768px) {
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    header .main_header p {
+      margin-bottom: 300px; }
+
+  main .principle {
+    padding: 80px 20px 80px 20px; }
+    main .principle > h2 {
+      line-height: 30px; }
+    main .principle_wrapper {
+      max-width: none; }
+      main .principle_wrapper_card {
+        max-width: none; }
+        main .principle_wrapper_card > p {
+          max-width: none; }
+  main .effect {
+    padding: 0px 20px 0px 20px; }
+    main .effect > h2 {
+      line-height: 47px; }
+    main .effect_wrapper {
+      justify-content: center; }
+  main .reviews {
+    padding: 0px 20px 0px 20px;
+    min-height: none; }
+    main .reviews_flex_wrapper_button {
+      display: none; }
+    main .reviews_wrapper {
+      width: auto; }
+      main .reviews_wrapper_card {
+        max-width: 335px;
+        max-height: 275px; }
+        main .reviews_wrapper_card:nth-child(2) {
+          display: none; }
+  main .partners {
+    margin-top: 60px; }
+    main .partners_logo {
+      justify-content: center; }
+      main .partners_logo img:nth-child(4) {
+        display: none; }
+      main .partners_logo img:nth-child(5) {
+        display: none; }
+  main .professional {
+    background: linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%); }
+
+  footer .flex .follow_item p {
+    font-size: 15px; }
+  footer .flex .follow_item h3 {
+    font-size: 16px; } }
+@media only screen and (max-width: 650px) {
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); } }
+@media only screen and (max-width: 480px) {
+  header .sub_header_adaptive_block {
+    display: block; }
+    header .sub_header_adaptive_block .burger img {
+      right: 0px;
+      bottom: 10px; }
+  header .main_header {
+    background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+    header .main_header h1 {
+      text-align: center;
+      font-size: 33px;
+      margin: 0; }
+    header .main_header p {
+      text-align: center;
+      margin: 0;
+      margin-bottom: 80%; }
+
+  main .principle > h2 {
+    text-align: center;
+    line-height: 56px; }
+  main .principle > p {
+    text-align: center; }
+  main .effect > h2 {
+    text-align: center;
+    font-size: 37px; }
+  main .effect > p {
+    text-align: center; }
+  main .reviews {
+    padding-left: 5px;
+    padding-right: 5px; }
+    main .reviews_flex_wrapper > h2 {
+      line-height: 50px;
+      text-align: center; }
+    main .reviews > p {
+      text-align: center; }
+    main .reviews_wrapper_card {
+      min-width: 0;
+      min-height: 0;
+      padding-bottom: 20px; }
+  main .partners {
+    padding-left: 5px;
+    padding-right: 5px; }
+    main .partners > h2 {
+      text-align: center;
+      line-height: 50px; }
+    main .partners > h3 {
+      text-align: center; }
+  main .professional {
+    padding-left: 5px;
+    padding-right: 5px; }
+    main .professional > h2 {
+      font-size: 27px; }
+    main .professional > h3 {
+      font-size: 16px; }
+    main .professional > a > button {
+      margin-top: 20px; } }
