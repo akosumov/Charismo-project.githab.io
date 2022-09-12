@@ -1,0 +1,8 @@
+{
+  "name": "charismo",
+  "version": "1.0.0",
+  "description": "Online store for hair care products",
+  "main": "index.js",
+  "author": "Alexey Kosumov",
+  "license": "MIT"
+}

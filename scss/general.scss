@@ -1,0 +1,531 @@
+header{
+    .sup_header{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        &_menu{
+            display: flex;
+            justify-content: center;
+            gap: 66px;  
+            &_item{
+                a{
+                    color: $grey;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        color: $blue;
+                    }
+                }
+            }
+        }
+        &_login{
+            display: flex;
+            justify-content: end;
+            gap: 34px;
+            margin-left: 290px;
+            &_item{
+                a{
+                    color: $grey;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+    .sub_header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F4F7FE;
+        height: 86px;
+        border-bottom: 1px solid #E7E7E7;
+        &_adaptive_block{
+            display: none;
+        }
+        img{
+            margin-right: 150px;
+        }
+        &_menu{
+            display: flex;
+            justify-content: flex-start;
+            gap: 33px; 
+            padding-right: 60px;
+            &_item{
+                a{
+                    color: $dark_blue;
+                    font-size: 16px;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        color: $blue;
+                    }
+                }
+            }
+        }
+        &_wrapper{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            &_feedback{
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                box-shadow: 6px 4px 4px #DCDCDC;
+                width: 200px;
+                height: 51px;
+                left: 1145px;
+                top: 29px;
+                border: 1px solid #2389FF;
+                border-radius: 8px;
+                font-size: 16px;
+                transition: all linear 0.2s;
+                &:active{
+                    background-color:rgba(255, 255, 255, 0.384);
+                }
+                &:hover{
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    .main_header{
+        min-height: 400px;
+        padding: 99px 0 0 0;
+        background: url(../img/noroot-2.png) left center/auto auto no-repeat,
+        url(../img/women_adaptive.png) right center/auto auto no-repeat,
+        linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+        padding-left: 375px;
+        h1{
+            display: block;
+            font-weight: 700;
+            font-size: 42px;
+            color: $dark_blue;
+            margin-bottom: 35px;
+            line-height: 50px;
+            max-width: 466px;
+        }
+        p{
+            font-size: 20px;
+            line-height: 130%;
+            max-width: 502px;
+            color: $grey;
+            margin-bottom: 35px;
+        }
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+            background: #2389FF;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 20px;
+            color: white;
+            width: 270px;
+            height: 55px;
+            border: none;
+            cursor: pointer;
+            transition: all ease 0.2s;
+            &:hover{
+                background: #207fec;
+            }
+            &:active{
+                background: #1c6dca;
+            }
+        }
+    }
+}
+main{
+    .principle{
+        padding: 98px 0 124px 375px;
+        padding-right: 375px;
+        >h2{
+            font-weight: 700;
+            font-size: 42px;
+            color: $dark_blue;
+            margin-bottom: 19px;
+        }
+        >p{
+            font-size: 18px;
+            line-height: 130%;
+            color: $grey;
+            max-width: 812px;
+        }
+        &_wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &_card{
+                min-height: 233px;
+                max-width: 370px;
+                transition-duration: 0.5s;
+                transition-property: box-shadow;
+                margin-top: 50px;
+                >img{
+                    margin-bottom: 11px;
+                    padding: 43px 0px 0px 18px;
+                }
+                >h3{                                                                 
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: $dark_blue;
+                    margin-bottom: 11px;
+                    padding-left: 18px; 
+                }
+                >p{
+                    font-size: 16px;
+                    line-height: 130%;
+                    color: $grey;
+                    max-width: 100%;
+                    margin-bottom: 19px;
+                    padding-left: 18px;
+                }
+                &:hover{
+                    background: url(../img/Vector.svg) bottom right/auto auto no-repeat;
+                    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+                }
+            }
+        }
+    }
+    .effect{
+        padding: 0px 0px 93px 368px;
+        padding-right: 375px;
+        >h2{
+            font-weight: 700;
+            font-size: 42px;
+            color: $dark_blue;
+            margin-bottom: 19px;
+        }
+        >p{
+            font-size: 18px;
+            line-height: 130%;
+            color: $grey;
+            max-width: 812px;
+        }
+        &_wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &_card{
+                min-height: 369px;
+                max-width: 309px;
+                text-align: center;
+                background: linear-gradient(146.03deg, #F4F7FE 2.16%, rgba(244, 247, 254, 0.5) 98.31%);
+                border-radius: 10px;
+                margin-top: 50px;
+                >img{
+                    display: block;
+                    margin: 0 auto;
+                }
+                >h3{
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: $dark_blue;
+                }
+                >p{
+                    padding-top: 15px;
+                    font-size: 16px;
+                    line-height: 130%;
+                    color: $grey;
+                }
+                >a{
+                    opacity: 0;
+                    padding-top: 12px;
+                    padding-bottom: 5px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: $blue;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 15px;
+                    transition: all linear 0.3s;
+                }
+                &:hover{
+                    background: linear-gradient(179.35deg, #F4F7FE 4.97%, rgba(244, 247, 254, 0) 103.87%);
+                    >a{
+                       opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .reviews{
+        padding: 0px 0px 0px 378px;
+        background: url(../img/noroot_4.png) top left/auto auto no-repeat,
+        url(../img/noroot_5.png) bottom right/auto auto no-repeat,
+        linear-gradient(94.21deg, #F4F7FE 0.24%, rgba(244, 247, 254, 0.5) 100%);
+        min-height: 595px;
+        padding-right: 375px;
+        &_flex_wrapper{
+            padding-top: 77px;
+            display: flex;
+            justify-content: space-between;
+            >h2{
+                font-weight: 700;
+                font-size: 42px;
+                color: $dark_blue;
+                margin-bottom: 25px;
+            }
+            &_button{
+                display: flex;
+                gap: 17px;
+                >button{
+                    width: 50px;
+                    height: 50px;
+                    background: rgba(35, 137, 255, 0.1);
+                    border-radius: 40px;
+                    border: none;
+                    cursor: pointer;
+                    >img{
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+        >p{
+            font-size: 20px;
+            color: $grey;
+        }
+        &_wrapper{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            &_card{
+                margin-top: 55px;
+                min-width: 341px;
+                min-height: 275px;
+                background: #FFFFFF;
+                box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.15);
+                border-radius: 10px;
+                border: 1px solid #E7E7E7;
+                &_person{
+                    padding: 22px 0px 0px 18px;
+                    display: flex;
+                    gap: 20px;
+                    &_text{
+                        >h4{
+                            font-size: 18px;
+                            color: $grey;
+                            padding-bottom: 8px;
+                        }
+                        >h3{
+                            font-weight: 700;
+                            font-size: 20px;
+                            color: $dark_blue;
+                            padding-bottom: 8px;
+                        }
+                    }
+                }
+                >h3{
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: $dark_blue;
+                    padding: 25px 0 9px 18px;
+                }
+                >p{
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: $grey;
+                    padding: 0px 0px 9px 18px;
+                }   
+                >a{
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: $blue;
+                    padding-left: 18px;
+                    transition: all ease-in-out 0.1s;
+                    &:hover{
+                        color: #1c6dca;
+                    }
+                }
+            }
+        }
+    }
+    .partners{
+        padding: 101px 375px 100px 375px;
+        max-height: 547px;
+        >h2{
+            font-weight: 700;
+            font-size: 42px;
+            color: $dark_blue;
+        }   
+        >h3{
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 20px;
+            color: $grey;
+        }
+        &_logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 71px;
+            gap: 25px;
+        }
+    }
+    .professional{
+        padding: 43px 0px 30px 0;
+        background: url(../img/noroot_6.png) top left/auto auto no-repeat,
+        url(../img/noroot_7.png) top right/auto auto no-repeat,
+        linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%);
+        max-height: 253px;
+        text-align: center;
+        >h2{
+            font-weight: 700;
+            font-size: 42px;
+            color: white;
+        }
+        >h3{
+            padding-top: 18px;
+            font-size: 20px;
+            color: white;
+        }
+        >a{
+            >button{
+                margin-top: 40px;
+                width: 270px;
+                height: 55px;
+                background: #FFFFFF;
+                border-radius: 5px;
+                font-weight: 700;
+                font-size: 20px;
+                color: $blue;
+                cursor: pointer;
+                border: none;
+                box-shadow: 6px 4px 4px #2363ec;
+                transition: all linear 0.3s;
+                &:hover{
+                    box-shadow: none;
+                }
+                &:active{
+                    background: #ffffffef;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    padding: 113px 0 28px 0;
+    .flex{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        .follow{
+            &_item{
+                margin-bottom: 20px;
+                >p{
+                    line-height: 18px;
+                    color: $grey;
+                    max-width: 370px;
+                }
+                >h3{
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $dark_blue;
+                }
+                &_img{
+                    display: flex;
+                    gap: 23px;
+                    a{
+                        filter: grayscale(1);
+                        transition: all linear 0.3s;
+                        &:hover{
+                            filter: grayscale(0);
+                        }
+                    }
+                    &_social{
+                        min-width: 40px;
+                        min-height: 40px;
+                    }
+                }
+            }
+        }
+        .pages,.product{
+            &_item{
+                margin-bottom: 15px;
+                >h3{
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: $dark_blue;
+                }
+                a{
+                    transition: all linear 0.3s;
+                    font-size: 18px;
+                    color: $grey;
+                    &:hover{
+                        color: $blue;
+                    }
+                }
+            }
+        }
+        .spam{
+            &_item{
+                margin-bottom: 20px;
+                >h3{
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: $dark_blue;
+                    min-width: 289px;
+                }
+                >input{
+                    width: 298px;
+                    height: 38px;
+                    background: #FFFFFF;
+                    border: 1px solid #DEDEDE;
+                    border-radius: 5px;
+                    padding-left: 20px;
+                    &::placeholder{
+                        font-size: 16px;
+                        color: #DEDEDE;
+                    }
+                }
+                >button{
+                    cursor: pointer;
+                    width: 322px;
+                    height: 44px;
+                    background: #2389FF;
+                    border-radius: 5px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #FFFCFC;
+                    border: none;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        background: #207fec;
+                    }
+                    &:active{
+                        background: #1c6dca;
+                    }
+                }
+            }
+        }
+    }
+    .sub_footer{
+        padding: 0px 375px 0px 375px;
+        display: flex;
+        gap: 250px;
+        margin-top: 50px;
+        .Copyright{
+            a{
+                color: $grey;
+                &:hover{
+                    color: $blue;
+                }
+            }
+        }
+        .politics{
+            a{
+                color: $grey;
+                &:hover{
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
