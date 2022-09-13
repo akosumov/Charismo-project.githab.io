@@ -205,32 +205,28 @@
   header .main_header {
     background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
     header .main_header h1 {
-      text-align: center;
       font-size: 33px;
-      margin: 0; }
-    header .main_header p {
-      text-align: center;
       margin: 0;
-      margin-bottom: 80%; }
+      margin-left: 20px; }
+    header .main_header p {
+      margin: 20px 0 80% 20px; }
 
   main .principle > h2 {
-    text-align: center;
     line-height: 56px; }
-  main .principle > p {
-    text-align: center; }
+  main .principle_wrapper_card > p, main .principle_wrapper_card > h3, main .principle_wrapper_card > img {
+    padding-left: 0; }
   main .effect > h2 {
-    text-align: center;
     font-size: 37px; }
-  main .effect > p {
-    text-align: center; }
+  main .effect_wrapper {
+    margin-bottom: 92px; }
   main .reviews {
-    padding-left: 5px;
-    padding-right: 5px; }
+    padding-left: 0;
+    padding-right: 0; }
     main .reviews_flex_wrapper > h2 {
       line-height: 50px;
-      text-align: center; }
+      padding-left: 20px; }
     main .reviews > p {
-      text-align: center; }
+      padding-left: 20px; }
     main .reviews_wrapper_card {
       min-width: 0;
       min-height: 0;

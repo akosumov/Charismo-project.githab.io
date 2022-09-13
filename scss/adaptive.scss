@@ -354,47 +354,47 @@
             background: url(../img/women_adaptive2.png) center 200px/auto auto no-repeat,
             linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
             h1{
-                text-align: center  ;
                 font-size: 33px;
                 margin: 0;
+                margin-left: 20px;
             }
             p{
-                text-align: center  ;
-                margin: 0;
-                margin-bottom: 80%;
+                margin: 20px 0 80% 20px;
             }
         }
     }
     main{
         .principle{
             >h2{
-                text-align: center;
                 line-height: 56px;
             }
-            >p{
-                text-align: center;
+            &_wrapper{
+                &_card{
+                    >p,>h3,>img{
+                        padding-left: 0;
+                    }
+                }
             }
         }
         .effect{
             >h2{
-                text-align: center;
                 font-size: 37px;    
             }
-            >p{
-                text-align: center;
+            &_wrapper{
+                margin-bottom: 92px;
             }
         }
         .reviews{
-            padding-left: 5px;
-            padding-right: 5px;
+            padding-left: 0;
+            padding-right: 0;
             &_flex_wrapper{
                 >h2{
                     line-height: 50px;
-                    text-align: center;
+                    padding-left: 20px;
                 }
             }
             >p{
-                text-align: center;
+                padding-left: 20px;
             }
             &_wrapper{
                 &_card{
