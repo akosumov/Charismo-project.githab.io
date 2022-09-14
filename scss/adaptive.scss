@@ -43,6 +43,14 @@
             padding: 25px;
             padding-top: 50px;
         }
+        //shop.html
+        section.product_card{
+            justify-content: center;
+        }
+        //reviews.html
+        section.question_reviews{
+            padding: 75px 50px 57px 50px;
+        }
     }
     footer{
         padding: 50px;
@@ -72,6 +80,11 @@
         }
         .main_header{
             background: url(../img/women_adaptive.png) 400px center/auto auto no-repeat,linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%);
+        }
+        .menu{
+            padding-bottom: 25px;
+            padding-top: 25px;
+            padding-left: 50px;
         }
     }
     footer{
@@ -141,6 +154,7 @@
             display: block  ;
             background: white;
             padding: 20px 0px 0px 20px;
+            border: none;
             &_adaptive_block{
                 display: block;
                 .burger{
@@ -184,6 +198,13 @@
                 height: 10%;
             }
         }
+        //shop.html
+        .shop{
+            background-color: #F4F7FE;
+        }
+        .menu{
+            border: none;
+        }
     }
     main{
         .partners{
@@ -208,6 +229,34 @@
             }
             h3{
                 padding-top: 20px;
+            }
+        }
+        //shop.html
+        section.product_card{
+            padding-left: 0;
+            padding-right: 0;
+            .product{
+                background-color: #FAFBFF;
+                .buy_button{
+                    justify-content: center;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                    .basket,.fast{
+                        display: none;
+                    }
+                    .basket_mobile,.loupe{
+                        display: block;
+                    }
+                }
+            }
+        }
+        //reviews.html
+        section.question_reviews{
+            padding: 0px 50px 57px 50px;
+            .question_list{
+                &_item{
+                    max-width: none;
+                }
             }
         }
     }
@@ -249,6 +298,9 @@
             p{
                 margin-bottom: 300px;
             }
+        }
+        .menu{
+            border: none;
         }
     }
     main{
@@ -312,6 +364,12 @@
         .professional{
             background: linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%);;
         }
+        //shop.html
+        section.product_card{
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 46px;
+        }
     }
     footer{
         .flex{
@@ -360,6 +418,12 @@
             }
             p{
                 margin: 20px 0 80% 20px;
+            }
+        }
+        .menu{
+            h2{
+                font-size: 15px;
+                padding-left: 0px;
             }
         }
     }
@@ -427,6 +491,25 @@
             >a{
                 >button{
                     margin-top: 20px;
+                }
+            }
+        }
+        //shop.html
+        section.product_card{
+            padding-left: 20px;
+            padding-right: 20px;
+            .product{
+                margin-bottom: 10px;
+                >h2{
+                    font-size: 14px;
+                }
+            }
+        }
+        section.question_reviews{
+            padding: 0px 20px 57px 20px;
+            .question_list{
+                &_item{
+                    max-width: none;
                 }
             }
         }

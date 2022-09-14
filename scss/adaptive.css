@@ -29,6 +29,10 @@
   main .professional {
     padding: 25px;
     padding-top: 50px; }
+  main section.product_card {
+    justify-content: center; }
+  main section.question_reviews {
+    padding: 75px 50px 57px 50px; }
 
   footer {
     padding: 50px; } }
@@ -47,6 +51,10 @@
       gap: 10px; }
   header .main_header {
     background: url(../img/women_adaptive.png) 400px center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
+  header .menu {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px; }
 
   footer {
     padding: 50px 0px 0px 20px; }
@@ -83,7 +91,8 @@
     box-sizing: border-box;
     display: block;
     background: white;
-    padding: 20px 0px 0px 20px; }
+    padding: 20px 0px 0px 20px;
+    border: none; }
     header .sub_header_adaptive_block {
       display: block; }
       header .sub_header_adaptive_block .burger {
@@ -116,6 +125,10 @@
       margin: 0 auto;
       width: 75%;
       height: 10%; }
+  header .shop {
+    background-color: #F4F7FE; }
+  header .menu {
+    border: none; }
 
   main .partners_logo img:nth-child(1) {
     display: none; }
@@ -129,6 +142,23 @@
       line-height: 40px; }
     main .professional h3 {
       padding-top: 20px; }
+  main section.product_card {
+    padding-left: 0;
+    padding-right: 0; }
+    main section.product_card .product {
+      background-color: #FAFBFF; }
+      main section.product_card .product .buy_button {
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px; }
+        main section.product_card .product .buy_button .basket, main section.product_card .product .buy_button .fast {
+          display: none; }
+        main section.product_card .product .buy_button .basket_mobile, main section.product_card .product .buy_button .loupe {
+          display: block; }
+  main section.question_reviews {
+    padding: 0px 50px 57px 50px; }
+    main section.question_reviews .question_list_item {
+      max-width: none; }
 
   footer .flex {
     display: block; }
@@ -149,6 +179,8 @@
     background: url(../img/women_adaptive2.png) center center/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); }
     header .main_header p {
       margin-bottom: 300px; }
+  header .menu {
+    border: none; }
 
   main .principle {
     padding: 80px 20px 80px 20px; }
@@ -188,6 +220,10 @@
         display: none; }
   main .professional {
     background: linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%); }
+  main section.product_card {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 46px; }
 
   footer .flex .follow_item p {
     font-size: 15px; }
@@ -210,6 +246,9 @@
       margin-left: 20px; }
     header .main_header p {
       margin: 20px 0 80% 20px; }
+  header .menu h2 {
+    font-size: 15px;
+    padding-left: 0px; }
 
   main .principle > h2 {
     line-height: 56px; }
@@ -247,4 +286,15 @@
     main .professional > h3 {
       font-size: 16px; }
     main .professional > a > button {
-      margin-top: 20px; } }
+      margin-top: 20px; }
+  main section.product_card {
+    padding-left: 20px;
+    padding-right: 20px; }
+    main section.product_card .product {
+      margin-bottom: 10px; }
+      main section.product_card .product > h2 {
+        font-size: 14px; }
+  main section.question_reviews {
+    padding: 0px 20px 57px 20px; }
+    main section.question_reviews .question_list_item {
+      max-width: none; } }

@@ -1,0 +1,91 @@
+header .sup_header_shop {
+  background-color: #F4F7FE; }
+header .shop {
+  background-color: white; }
+header .menu {
+  padding: 77px 0 74px 375px;
+  border-bottom: 1px solid #E7E7E7; }
+  header .menu > h2 span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #304560; }
+
+main .product_card {
+  padding: 96px 372px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px; }
+  main .product_card .product {
+    max-width: 350px;
+    margin-bottom: 63px; }
+    main .product_card .product_image {
+      background: rgba(244, 247, 254, 0.5);
+      padding: 24px 0; }
+      main .product_card .product_image img {
+        margin: 0 auto; }
+    main .product_card .product > img {
+      margin: 0 auto;
+      margin-top: 26px; }
+    main .product_card .product > h2 {
+      margin-top: 15px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #304560; }
+    main .product_card .product .price {
+      margin-top: 13px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #2389FF;
+      text-align: center; }
+    main .product_card .product .buy_button {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 26px;
+      gap: 20px; }
+      main .product_card .product .buy_button .basket {
+        width: 159px;
+        height: 55px;
+        background: #2389FF;
+        box-shadow: 0px 5px 15px rgba(35, 137, 255, 0.15);
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        transition: all linear 0.2s; }
+        main .product_card .product .buy_button .basket:hover {
+          background-color: #207fec; }
+        main .product_card .product .buy_button .basket:active {
+          background: #1c6dca; }
+      main .product_card .product .buy_button .fast {
+        width: 175px;
+        height: 55px;
+        background: #F4F7FE;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        color: #304560;
+        cursor: pointer;
+        transition: all linear 0.2s; }
+        main .product_card .product .buy_button .fast:hover {
+          background-color: #c7c9cf; }
+        main .product_card .product .buy_button .fast:active {
+          background: #9b9ca0; }
+      main .product_card .product .buy_button .basket_mobile {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer; }
+      main .product_card .product .buy_button .loupe {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer; }
+
+.shop_footer {
+  background-color: #F4F7FE; }

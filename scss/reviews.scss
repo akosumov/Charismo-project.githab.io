@@ -1,0 +1,65 @@
+
+    header{
+        .sup_header_reviews{
+            background-color: #F4F7FE;
+        }
+    }
+    main{
+        section.question_reviews{
+            padding:  75px 375px 57px 375px;
+            .question_list{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                &_item{
+                    max-width: 350px;
+                    margin-top: 60px;
+                    h2{
+                        font-weight: 700;
+                        font-size: 70px;
+                        color: #FFFFFF;
+                        -webkit-text-stroke: 2px $blue;
+                        margin-bottom: 30px;
+                    }
+                    h3{
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: $dark_blue;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 21px;
+                        color: $grey;
+                        margin-bottom: 19px;
+                    }
+                    a{
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: $blue;
+                        transition: all linear 0.2s;
+                        &:hover{
+                            color: #1f78dd;
+                        }
+                        &::after{
+                            content: url(../img/mini_arrow.svg);
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        section.section_reviews{
+            .reviews_page{
+                background: url(../img/noroot_4.png) top left/auto auto no-repeat,
+                url(../img/noroot_5.png) bottom right/auto auto no-repeat;
+            }
+        }
+    }
+        .reviews_footer{
+            background-color: #F4F7FE;
+        }    
