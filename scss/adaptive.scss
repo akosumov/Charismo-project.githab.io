@@ -51,6 +51,16 @@
         section.question_reviews{
             padding: 75px 50px 57px 50px;
         }
+        //question.html
+        section.spoilers{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        //contacts.html
+        .contacts_message{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
     }
     footer{
         padding: 50px;
@@ -85,6 +95,37 @@
             padding-bottom: 25px;
             padding-top: 25px;
             padding-left: 50px;
+        }
+    }
+    main{
+        //question.html
+        section.spoilers{
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-top: 10px;
+        }
+        //contacts.html
+        .contacts_message{
+            padding: 30px;
+            >h2{
+                font-size: 35px;
+            }
+            >h3{
+                font-size: 16px;
+            }
+            .wrapper{
+                .contacts_text{
+                    >h3{
+                        font-size: 16px;
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                    >p{
+                        font-size: 16px;
+                    }
+                }
+            }
         }
     }
     footer{
@@ -259,6 +300,30 @@
                 }
             }
         }
+        //question.html
+        section.spoilers{
+            margin-top: 10px;
+        }
+        //contacts.html
+        .contacts_message{
+            .wrapper{
+                gap: 10px;
+                form{
+                    width: 350px;
+                    >input{
+                        width: 321px;
+                    }
+                    .wrapper{
+                        button{
+                            margin-left: 140px;
+                        }
+                        p{
+                            min-width: 200px;
+                        }
+                    }
+                }
+            }
+        }
     }
     footer{
         .flex{
@@ -369,6 +434,26 @@
             padding-left: 0px;
             padding-right: 0px;
             padding-top: 46px;
+        }
+        //contacts.html
+        .contacts_message{
+            >h2{
+                text-align: center;
+            }
+            >h3{
+                text-align: center;
+            }
+            .wrapper{
+                flex-direction: column;
+                form{
+                    margin: 0 auto;
+                    .wrapper{
+                        button{
+                            margin: 0 auto  ;
+                        }
+                    }
+                }
+            }
         }
     }
     footer{
@@ -511,6 +596,27 @@
                 &_item{
                     max-width: none;
                 }
+            }
+        }
+        //contacts.html
+        .contacts_message{
+            .wrapper{
+                form{
+                    >input{
+                        width: 258px;
+                    }
+                }
+            }
+        }
+    }
+    //question.html
+    section.spoilers{
+        details{
+            summary{
+                font-size: 16px;
+            }
+            >p{
+                font-size: 12px;
             }
         }
     }

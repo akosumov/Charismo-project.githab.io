@@ -749,6 +749,130 @@ main section.section_reviews .reviews_page {
 .reviews_footer {
   background-color: #F4F7FE; }
 
+header .sup_header_question {
+  background-color: #F4F7FE; }
+header .menu_question {
+  border-bottom: none;
+  padding-bottom: 0; }
+
+main section.spoilers {
+  margin-top: 74px;
+  padding: 0px 377px 27px 377px; }
+  main section.spoilers details {
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid #CACCD2;
+    padding: 25px 0px 25px 0px; }
+    main section.spoilers details summary {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #304560;
+      display: block;
+      cursor: pointer;
+      position: relative;
+      padding-right: 40px; }
+      main section.spoilers details summary::before {
+        top: .4em;
+        right: .3em;
+        color: transparent;
+        background: url("../img/arrow_spoiler.svg") no-repeat 50% 50%/1em 1em;
+        width: 1em;
+        height: 1em;
+        content: "";
+        position: absolute;
+        -webkit-transition: -webkit-transform .5s;
+        transition: -webkit-transform .5s;
+        transition: transform .5s;
+        transition: transform .5s, -webkit-transform .5s; }
+    main section.spoilers details > p {
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 150%;
+      color: #728399; }
+  main section.spoilers details[open] > summary:before {
+    -webkit-transform: scale(-1, 1);
+            transform: scale(-1, 1);
+    background: url("../img/arrow_spoiler_blue.svg") no-repeat 50% 50%/2em 2em; }
+  main section.spoilers details[open] summary ~ * {
+    -webkit-animation: sweep .5s ease-in-out;
+            animation: sweep .5s ease-in-out; }
+@-webkit-keyframes sweep {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes sweep {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+header .sup_header_contact {
+  background-color: #F4F7FE; }
+
+main .contacts_message {
+  padding: 140px 100px 165px 375px; }
+  main .contacts_message > h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px; }
+  main .contacts_message > h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 16px; }
+  main .contacts_message .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 20px; }
+    main .contacts_message .wrapper form {
+      width: 700px; }
+      main .contacts_message .wrapper form > input {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 16px 0px 17px 18px;
+        margin-top: 15px;
+        width: 619px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid rgba(202, 204, 210, 0.5);
+        border-radius: 8px; }
+      main .contacts_message .wrapper form button {
+        margin-top: 40px;
+        min-width: 248px;
+        height: 64px;
+        cursor: pointer;
+        background: #2389FF;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #FFFCFC;
+        border: none;
+        -webkit-transition: all linear 0.3s;
+        transition: all linear 0.3s; }
+        main .contacts_message .wrapper form button:hover {
+          background: #207fec; }
+        main .contacts_message .wrapper form button:active {
+          background: #1c6dca; }
+  main .contacts_message .contacts_text {
+    margin-top: 10px; }
+    main .contacts_message .contacts_text > h3 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%; }
+      main .contacts_message .contacts_text > h3 a {
+        font-weight: 700;
+        font-size: 20px;
+        color: #2389FF; }
+    main .contacts_message .contacts_text > p {
+      margin-top: 15px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%; }
+
 @media only screen and (max-width: 1500px) {
   header .sup_header {
     padding: 11px 25px 0 40px;
@@ -789,6 +913,12 @@ main section.section_reviews .reviews_page {
             justify-content: center; }
   main section.question_reviews {
     padding: 75px 50px 57px 50px; }
+  main section.spoilers {
+    padding-left: 100px;
+    padding-right: 100px; }
+  main .contacts_message {
+    padding-left: 20px;
+    padding-right: 20px; }
 
   footer {
     padding: 50px; } }
@@ -812,6 +942,23 @@ main section.section_reviews .reviews_page {
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 50px; }
+
+  main section.spoilers {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px; }
+  main .contacts_message {
+    padding: 30px; }
+    main .contacts_message > h2 {
+      font-size: 35px; }
+    main .contacts_message > h3 {
+      font-size: 16px; }
+    main .contacts_message .wrapper .contacts_text > h3 {
+      font-size: 16px; }
+      main .contacts_message .wrapper .contacts_text > h3 a {
+        font-size: 16px; }
+    main .contacts_message .wrapper .contacts_text > p {
+      font-size: 16px; }
 
   footer {
     padding: 50px 0px 0px 20px; }
@@ -920,6 +1067,18 @@ main section.section_reviews .reviews_page {
     padding: 0px 50px 57px 50px; }
     main section.question_reviews .question_list_item {
       max-width: none; }
+  main section.spoilers {
+    margin-top: 10px; }
+  main .contacts_message .wrapper {
+    gap: 10px; }
+    main .contacts_message .wrapper form {
+      width: 350px; }
+      main .contacts_message .wrapper form > input {
+        width: 321px; }
+      main .contacts_message .wrapper form .wrapper button {
+        margin-left: 140px; }
+      main .contacts_message .wrapper form .wrapper p {
+        min-width: 200px; }
 
   footer .flex {
     display: block; }
@@ -990,6 +1149,19 @@ main section.section_reviews .reviews_page {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 46px; }
+  main .contacts_message > h2 {
+    text-align: center; }
+  main .contacts_message > h3 {
+    text-align: center; }
+  main .contacts_message .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    main .contacts_message .wrapper form {
+      margin: 0 auto; }
+      main .contacts_message .wrapper form .wrapper button {
+        margin: 0 auto; }
 
   footer .flex .follow_item p {
     font-size: 15px; }
@@ -1065,6 +1237,13 @@ main section.section_reviews .reviews_page {
   main section.question_reviews {
     padding: 0px 20px 57px 20px; }
     main section.question_reviews .question_list_item {
-      max-width: none; } }
+      max-width: none; }
+  main .contacts_message .wrapper form > input {
+    width: 258px; }
+
+  section.spoilers details summary {
+    font-size: 16px; }
+  section.spoilers details > p {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */

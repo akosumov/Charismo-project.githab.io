@@ -1,0 +1,81 @@
+$grey: #728399;
+$blue: #2389FF;
+$dark_blue: #304560;
+
+header{
+    .sup_header_contact{
+        background-color: #F4F7FE;
+    }
+}
+
+main{
+    .contacts_message{
+        padding: 140px 100px 165px 375px;
+        >h2{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 62px;
+        }
+        >h3{
+            font-size: 20px;
+            line-height: 26px;
+            margin-top: 16px;                
+        }
+        .wrapper{
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            form{
+                width: 700px;
+                >input{
+                    box-sizing: border-box;
+                    padding: 16px 0px 17px 18px;
+                    margin-top: 15px;
+                    width: 619px;
+                    height: 54px;
+                    background: #FFFFFF;
+                    border: 1px solid rgba(202, 204, 210, 0.5);
+                    border-radius: 8px;
+                }
+                button{
+                        margin-top: 40px;
+                        min-width: 248px;
+                        height: 64px;
+                        cursor: pointer;
+                        background: #2389FF;
+                        border-radius: 5px;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #FFFCFC;
+                        border: none;
+                        transition: all linear 0.3s;
+                        &:hover{
+                            background: #207fec;
+                        }
+                        &:active{
+                            background: #1c6dca;
+                        }
+                    }
+                }
+            }
+        .contacts_text{
+            margin-top: 10px;
+            >h3{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 150%;
+                a{
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: $blue;
+                }
+            }
+            >p{
+                margin-top: 15px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+            }
+        }
+    }
+}

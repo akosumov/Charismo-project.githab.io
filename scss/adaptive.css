@@ -33,6 +33,12 @@
     justify-content: center; }
   main section.question_reviews {
     padding: 75px 50px 57px 50px; }
+  main section.spoilers {
+    padding-left: 100px;
+    padding-right: 100px; }
+  main .contacts_message {
+    padding-left: 20px;
+    padding-right: 20px; }
 
   footer {
     padding: 50px; } }
@@ -55,6 +61,23 @@
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 50px; }
+
+  main section.spoilers {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px; }
+  main .contacts_message {
+    padding: 30px; }
+    main .contacts_message > h2 {
+      font-size: 35px; }
+    main .contacts_message > h3 {
+      font-size: 16px; }
+    main .contacts_message .wrapper .contacts_text > h3 {
+      font-size: 16px; }
+      main .contacts_message .wrapper .contacts_text > h3 a {
+        font-size: 16px; }
+    main .contacts_message .wrapper .contacts_text > p {
+      font-size: 16px; }
 
   footer {
     padding: 50px 0px 0px 20px; }
@@ -159,6 +182,18 @@
     padding: 0px 50px 57px 50px; }
     main section.question_reviews .question_list_item {
       max-width: none; }
+  main section.spoilers {
+    margin-top: 10px; }
+  main .contacts_message .wrapper {
+    gap: 10px; }
+    main .contacts_message .wrapper form {
+      width: 350px; }
+      main .contacts_message .wrapper form > input {
+        width: 321px; }
+      main .contacts_message .wrapper form .wrapper button {
+        margin-left: 140px; }
+      main .contacts_message .wrapper form .wrapper p {
+        min-width: 200px; }
 
   footer .flex {
     display: block; }
@@ -224,6 +259,16 @@
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 46px; }
+  main .contacts_message > h2 {
+    text-align: center; }
+  main .contacts_message > h3 {
+    text-align: center; }
+  main .contacts_message .wrapper {
+    flex-direction: column; }
+    main .contacts_message .wrapper form {
+      margin: 0 auto; }
+      main .contacts_message .wrapper form .wrapper button {
+        margin: 0 auto; }
 
   footer .flex .follow_item p {
     font-size: 15px; }
@@ -297,4 +342,11 @@
   main section.question_reviews {
     padding: 0px 20px 57px 20px; }
     main section.question_reviews .question_list_item {
-      max-width: none; } }
+      max-width: none; }
+  main .contacts_message .wrapper form > input {
+    width: 258px; }
+
+  section.spoilers details summary {
+    font-size: 16px; }
+  section.spoilers details > p {
+    font-size: 12px; } }
