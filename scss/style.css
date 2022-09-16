@@ -64,6 +64,123 @@ textarea,
 select {
   font: inherit; }
 
+header .adaptive_block {
+  position: relative; }
+  header .adaptive_block .burger {
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 40px; }
+  header .adaptive_block .menu_adaptive_block {
+    visibility: hidden;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    position: absolute;
+    background-color: white;
+    height: 667px;
+    width: 100%;
+    padding: 25px 0 66px 0px;
+    z-index: 2;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    header .adaptive_block .menu_adaptive_block .close_menu {
+      display: inline-block;
+      padding-left: 17px;
+      margin-bottom: 56px;
+      cursor: pointer; }
+      header .adaptive_block .menu_adaptive_block .close_menu img {
+        width: 35px;
+        height: 35px; }
+    header .adaptive_block .menu_adaptive_block .menu_list_nav {
+      padding-left: 17px; }
+      header .adaptive_block .menu_adaptive_block .menu_list_nav_item {
+        margin-bottom: 40px;
+        position: relative; }
+        header .adaptive_block .menu_adaptive_block .menu_list_nav_item a {
+          font-size: 25px;
+          color: #304560; }
+          header .adaptive_block .menu_adaptive_block .menu_list_nav_item a:hover {
+            color: #2389FF; }
+          header .adaptive_block .menu_adaptive_block .menu_list_nav_item a::after {
+            right: 3.6em;
+            bottom: 0.3em;
+            content: '';
+            background: url(../img/arrow_adapt.svg) no-repeat 100% 100%/1em 1em;
+            width: 1em;
+            height: 1em;
+            position: absolute; }
+    header .adaptive_block .menu_adaptive_block a.login_adapt {
+      padding-left: 17px;
+      display: block;
+      border-top: 1px solid #728399;
+      border-bottom: 1px solid #728399;
+      font-size: 25px;
+      color: #304560;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-right: 45px;
+      position: relative; }
+      header .adaptive_block .menu_adaptive_block a.login_adapt:hover {
+        color: #2389FF; }
+      header .adaptive_block .menu_adaptive_block a.login_adapt::after {
+        right: 2em;
+        bottom: 1.4em;
+        content: '';
+        background: url(../img/login.svg) no-repeat 100% 100%/1em 1em;
+        width: 1em;
+        height: 1em;
+        position: absolute; }
+    header .adaptive_block .menu_adaptive_block a.bascket_adapt {
+      padding-left: 17px;
+      display: block;
+      border-bottom: 1px solid #728399;
+      font-size: 25px;
+      color: #304560;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-right: 45px;
+      position: relative;
+      margin-bottom: 40px; }
+      header .adaptive_block .menu_adaptive_block a.bascket_adapt:hover {
+        color: #2389FF; }
+      header .adaptive_block .menu_adaptive_block a.bascket_adapt::after {
+        right: 2em;
+        bottom: 1.4em;
+        content: '';
+        background: url(../img/basket_adapt.svg) no-repeat 100% 100%/1em 1em;
+        width: 1em;
+        height: 1em;
+        position: absolute; }
+    header .adaptive_block .menu_adaptive_block a.telephone_adapt {
+      padding-left: 17px;
+      font-weight: 700;
+      font-size: 27px;
+      color: #304560; }
+      header .adaptive_block .menu_adaptive_block a.telephone_adapt:hover {
+        color: #2389FF; }
+    header .adaptive_block .menu_adaptive_block .social_menu_adap {
+      cursor: pointer;
+      padding-left: 17px;
+      margin-top: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      gap: 40px; }
+      header .adaptive_block .menu_adaptive_block .social_menu_adap:hover {
+        color: #2389FF; }
+  header .adaptive_block .menu_adaptive_block_active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    visibility: visible; }
 header .sup_header {
   padding-top: 20px;
   display: -webkit-box;
@@ -116,10 +233,9 @@ header .sub_header {
   background: #F4F7FE;
   height: 86px;
   border-bottom: 1px solid #E7E7E7; }
-  header .sub_header_adaptive_block {
-    display: none; }
   header .sub_header img {
-    margin-right: 150px; }
+    margin-right: 150px;
+    display: inline; }
   header .sub_header_menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -981,6 +1097,8 @@ main .contacts_message {
       padding: 0;
       padding-bottom: 20px; } }
 @media only screen and (max-width: 992px) {
+  header .adaptive_block .burger {
+    visibility: visible; }
   header .sup_header {
     display: none;
     height: 70px;
@@ -998,15 +1116,6 @@ main .contacts_message {
     background: white;
     padding: 20px 0px 0px 20px;
     border: none; }
-    header .sub_header_adaptive_block {
-      display: block; }
-      header .sub_header_adaptive_block .burger {
-        position: relative; }
-        header .sub_header_adaptive_block .burger img {
-          cursor: pointer;
-          position: absolute;
-          right: 20px;
-          bottom: 10px; }
     header .sub_header_menu {
       display: none; }
     header .sub_header_wrapper {
@@ -1172,6 +1281,20 @@ main .contacts_message {
     background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, -webkit-gradient(linear, left top, left bottom, from(#F4F7FE), to(rgba(244, 247, 254, 0.5)));
     background: url(../img/women_adaptive2.png) center bottom/auto auto no-repeat, linear-gradient(180deg, #F4F7FE 0%, rgba(244, 247, 254, 0.5) 100%); } }
 @media only screen and (max-width: 480px) {
+  header .adaptive_block .menu_adaptive_block .menu_list_nav_item a {
+    font-size: 16px; }
+  header .adaptive_block .menu_adaptive_block a.login_adapt {
+    font-size: 16px; }
+    header .adaptive_block .menu_adaptive_block a.login_adapt::after {
+      bottom: 2.5em;
+      right: 1em; }
+  header .adaptive_block .menu_adaptive_block a.bascket_adapt {
+    font-size: 16px; }
+    header .adaptive_block .menu_adaptive_block a.bascket_adapt::after {
+      bottom: 2.5em;
+      right: 1em; }
+  header .adaptive_block .menu_adaptive_block a.telephone_adapt {
+    font-size: 16px; }
   header .sub_header_adaptive_block {
     display: block; }
     header .sub_header_adaptive_block .burger img {

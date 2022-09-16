@@ -1,4 +1,133 @@
 header{
+    .adaptive_block{
+        position: relative;
+        .burger{
+            cursor: pointer;
+            visibility: hidden;
+            position: absolute;
+            top: 40px;
+            right: 40px;
+        }
+        .menu_adaptive_block{
+            visibility: hidden;
+            transform: scale(0);
+            transform: translateX(-100%);
+            position: absolute;
+            background-color: rgb(255, 255, 255);
+            height: 667px;
+            width: 100%;
+            padding: 25px 0 66px 0px;
+            z-index: 2;
+            transition: all 0.3s ease-in-out;
+            .close_menu{
+                display: inline-block;
+                padding-left: 17px;
+                margin-bottom: 56px;
+                cursor: pointer;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            .menu_list_nav{
+                padding-left: 17px;
+                &_item{
+                    margin-bottom: 40px;
+                    position: relative;
+                    a{
+                        font-size: 25px;
+                        color: $dark_blue;
+                        &:hover{
+                            color: $blue;
+                        }
+                        &::after{
+                            right: 3.6em;
+                            bottom: 0.3em;
+                            content: '';
+                            background: url(../img/arrow_adapt.svg) no-repeat 100% 100% / 1em 1em;
+                            width: 1em;
+                            height: 1em;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+            a.login_adapt{
+                padding-left: 17px;
+                display: block;
+                border-top: 1px solid $grey;
+                border-bottom: 1px solid $grey;
+                font-size: 25px;
+                color: $dark_blue;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                margin-right: 45px;
+                position: relative;
+                &:hover{
+                    color: $blue;
+                }
+                &::after{
+                    right: 2em;
+                    bottom: 1.4em;
+                    content: '';
+                    background: url(../img/login.svg) no-repeat 100% 100% / 1em 1em;
+                    width: 1em;
+                    height: 1em;
+                    position: absolute;
+                }
+            }
+            a.bascket_adapt{
+                padding-left: 17px;
+                display: block;
+                border-bottom: 1px solid $grey;
+                font-size: 25px;
+                color: $dark_blue;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                margin-right: 45px;
+                position: relative;
+                margin-bottom: 40px;
+                &:hover{
+                    color: $blue;
+                }
+                &::after{
+                    right: 2em;
+                    bottom: 1.4em;
+                    content: '';
+                    background: url(../img/basket_adapt.svg) no-repeat 100% 100% / 1em 1em;
+                    width: 1em;
+                    height: 1em;
+                    position: absolute;
+                }   
+            }
+            a.telephone_adapt{
+                padding-left: 17px;
+                font-weight: 700;
+                font-size: 27px;
+                color: $dark_blue;
+                &:hover{
+                    color: $blue;
+                }
+            }
+            .social_menu_adap{
+                cursor: pointer;
+                padding-left: 17px;
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 40px;
+                &:hover{
+                    color: $blue;
+                }
+            }
+        }
+        .menu_adaptive_block_active{
+            // transform: scale(1);
+            transform: translateX(0);
+            visibility: visible;
+        }
+    }
     .sup_header{
         padding-top: 20px;
         display: flex;
@@ -42,11 +171,9 @@ header{
         background: #F4F7FE;
         height: 86px;
         border-bottom: 1px solid #E7E7E7;
-        &_adaptive_block{
-            display: none;
-        }
         img{
             margin-right: 150px;
+            display: inline;
         }
         &_menu{
             display: flex;

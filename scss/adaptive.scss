@@ -176,6 +176,11 @@
 
 @media only screen and (max-width: 992px){
     header{
+        .adaptive_block{
+            .burger{
+                visibility: visible;
+            }
+        }
         .sup_header{
             display: none;
             height: 70px;
@@ -196,18 +201,6 @@
             background: white;
             padding: 20px 0px 0px 20px;
             border: none;
-            &_adaptive_block{
-                display: block;
-                .burger{
-                    position: relative;
-                    img{
-                        cursor: pointer;
-                        position: absolute;
-                        right: 20px;
-                        bottom: 10px;
-                    }
-                }
-            }
             &_menu{
                 display: none;
             }
@@ -482,6 +475,34 @@
 }
 @media only screen and (max-width: 480px){
     header{
+        .adaptive_block{
+            .menu_adaptive_block{
+                .menu_list_nav{
+                    &_item{
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                a.login_adapt{
+                    font-size: 16px;
+                    &::after{
+                        bottom: 2.5em;
+                        right: 1em;
+                    }
+                }
+                a.bascket_adapt{
+                    font-size: 16px;
+                    &::after{
+                        bottom: 2.5em;
+                        right: 1em;
+                    }
+                }
+                a.telephone_adapt{
+                    font-size: 16px;
+                }
+            }
+        }
         .sub_header{
             &_adaptive_block{
                 display: block;
