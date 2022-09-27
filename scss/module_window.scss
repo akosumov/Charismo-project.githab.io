@@ -1,0 +1,95 @@
+.wrapper_module{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.18);
+    z-index: 20;
+    transition: .4s all ;
+    opacity: 0;
+    visibility: hidden;
+    .modal{
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 150px;
+        max-width: 818px;
+        max-height: 712px;
+        padding: 33px 60px 40px 60px;
+        background: #FFFFFF;
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h3{
+                width: 219px;
+                height: 26px;
+                background: #2389FF;
+                color: white;
+                border-radius: 8px;
+                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                cursor: pointer;
+                transition: all 0.2s ease-in;
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+        }
+        h2{
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 51px;
+            margin-bottom: 17px;    
+        }
+        p{
+            font-size: 16px;
+            line-height: 150%;
+            color: #000000;
+        }
+        form{
+            width: 700px;
+            >input{
+                box-sizing: border-box;
+                padding: 16px 0px 17px 18px;
+                margin-top: 15px;
+                width: 619px;
+                height: 54px;
+                background: #FFFFFF;
+                border: 1px solid rgba(202, 204, 210, 0.5);
+                border-radius: 8px;
+                &:nth-child(4){
+                    padding-bottom: 83px;
+                }
+            }
+            button{
+                margin-top: 40px;
+                min-width: 248px;
+                height: 64px;
+                cursor: pointer;
+                background: #2389FF;
+                border-radius: 5px;
+                font-weight: 700;
+                font-size: 16px;
+                color: #FFFCFC;
+                border: none;
+                transition: all linear 0.3s;
+                &:hover{
+                    background: #207fec;
+                }
+                &:active{
+                    background: #1c6dca;
+                }
+            }
+        }
+    }   
+}
+.wrapper_module_active{
+    opacity: 1;
+    visibility: visible;
+}

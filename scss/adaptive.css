@@ -146,10 +146,6 @@
   header .menu {
     border: none; }
 
-  main .partners_logo img:nth-child(1) {
-    display: none; }
-  main .partners_logo img:nth-child(2) {
-    display: none; }
   main .effect {
     padding: 20px 93px 93px 93px; }
   main .professional {
@@ -201,6 +197,9 @@
     footer .flex .spam {
       display: none; }
   footer .sub_footer .politics {
+    display: none; }
+
+  .wrapper_module {
     display: none; } }
 @media only screen and (max-width: 768px) {
   header .main_header {
@@ -239,13 +238,12 @@
         main .reviews_wrapper_card:nth-child(2) {
           display: none; }
   main .partners {
-    margin-top: 60px; }
+    margin-top: 60px;
+    max-height: none;
+    height: auto; }
     main .partners_logo {
-      justify-content: center; }
-      main .partners_logo img:nth-child(4) {
-        display: none; }
-      main .partners_logo img:nth-child(5) {
-        display: none; }
+      justify-content: center;
+      flex-direction: column; }
   main .professional {
     background: linear-gradient(92.31deg, #2389FF 0.74%, rgba(35, 137, 255, 0.5) 98.19%); }
   main section.product_card {
@@ -316,7 +314,7 @@
     main .reviews_flex_wrapper > h2 {
       line-height: 50px;
       padding-left: 20px; }
-    main .reviews > p {
+    main .reviews p {
       padding-left: 20px; }
     main .reviews_wrapper_card {
       min-width: 0;

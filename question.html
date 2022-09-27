@@ -36,7 +36,7 @@
             <ul class="sup_header_menu">
                 <li class="sup_header_menu_item"><a href="#">Партнерам</a></li>
                 <li class="sup_header_menu_item"><a href="#">Центр обучения</a></li>
-                <li class="sup_header_menu_item"><a href="#">Вопросы и ответы</a></li>
+                <li class="sup_header_menu_item"><a href="./question.html">Вопросы и ответы</a></li>
                 <li class="sup_header_menu_item"><a href="#">Доставка и оплата</a></li>
             </ul>
             <ul class="sup_header_login">
@@ -111,9 +111,9 @@
                 <li class="pages_item"><h3>Страницы</h3></li>
                 <li class="pages_item"><a href="./index.html">Главная</a></li>
                 <li class="pages_item"><a href="./shope.html">Магазин</a></li>
-                <li class="pages_item"><a href="#">Вопросы и ответы</a></li>
-                <li class="pages_item"><a href="#">Отзывы</a></li>
-                <li class="pages_item"><a href="#">Контакты</a></li>
+                <li class="pages_item"><a href="./question.html">Вопросы и ответы</a></li>
+                <li class="pages_item"><a href="./reviews.html">Отзывы</a></li>
+                <li class="pages_item"><a href="./contacts.html">Контакты</a></li>
             </ul>
             <ul class="product">
                 <li class="product_item"><h3>Продукты</h3></li>
@@ -135,6 +135,30 @@
             <p class="politics"><a href="#">Политика обработки персональных данных</a></p>
         </div>
     </footer>
-    <script src="./js/main.js"></script>  
+    <div class="wrapper_module">
+        <div class="modal">
+            <div class="wrapper">
+                <h3>Добро пожаловать в семью</h3>
+                <img src="./img/krest.svg" alt="close" class="close_btn">
+            </div>
+            <h2>Напишите нам</h2>
+            <p>Делаем бизнес без обмана и пустых обещаний, помогая людям быть красивее и немного счастливее.
+            Если вы из нашей сферы и разделяете наши ценности — заполните форму ниже, и мы найдем точки соприкосновения:</p>
+            <div class="wrapper">
+                <form action="">
+                    <input type="text" placeholder="Ваше имя" class="modal_input_value">
+                    <input type="text" placeholder="Телефон" class="modal_input_value">
+                    <input type="text" placeholder="E-mail" class="modal_input_value">
+                    <input type="text" placeholder="Сообщение" class="modal_input_value">
+                    <button type="submit"s>Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js" type="module"></script>
+    <script src="./js/moduls_window.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
 </body>
 </html>

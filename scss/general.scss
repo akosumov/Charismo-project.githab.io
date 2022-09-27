@@ -382,7 +382,7 @@ main{
         }
     }
     .reviews{
-        padding: 0px 0px 0px 378px;
+        padding: 0px 378px 0px 378px;
         background: url(../img/noroot_4.png) top left/auto auto no-repeat,
         url(../img/noroot_5.png) bottom right/auto auto no-repeat,
         linear-gradient(94.21deg, #F4F7FE 0.24%, rgba(244, 247, 254, 0.5) 100%);
@@ -399,6 +399,11 @@ main{
                 margin-bottom: 25px;
             }
             &_button{
+                .swiper-button-next, .swiper-button-prev{
+                    position: static;
+                    width: auto;
+                    height: auto;
+                }
                 display: flex;
                 gap: 17px;
                 >button{
@@ -413,16 +418,23 @@ main{
                         margin: 0 auto;
                     }
                 }
+                .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+                    content: '';
+                }
+                .swiper-button-prev::after, .swiper-rtl .swiper-button-next::after {
+                    content: '';
+                }
+                .swiper-button-prev,.swiper-button-next{
+                    width: 50px;
+                    height: 50px;
+                }
             }
         }
-        >p{
+        p{
             font-size: 20px;
             color: $grey;
         }
-        &_wrapper{
-            display: flex;
-            justify-content: center;
-            gap: 20px;
+        &_wrapper{ 
             &_card{
                 margin-top: 55px;
                 min-width: 341px;
